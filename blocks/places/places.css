@@ -1,3 +1,6 @@
 .places {
   padding: 92px 148px;
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  row-gap: 80px;
 }

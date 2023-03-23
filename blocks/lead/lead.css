@@ -1,3 +1,15 @@
 .lead {
   padding: 28px 148px 0;
 }
+
+@media all and (max-width: 1024px) {
+  .lead {
+    padding: 20px 48px 0;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .lead {
+    padding: 20px 0 0;
+  }
+}
