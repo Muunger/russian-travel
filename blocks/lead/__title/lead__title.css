@@ -8,8 +8,17 @@
   text-align: center;
 }
 
+@media all and (max-width: 690px) {
+  .lead__title {
+    font-size: 52px;
+    line-height: 1.1;
+    margin: 0 auto 16px;
+  }
+}
+
 @media all and (max-width: 425px) {
   .lead__title {
+    max-width: 288px;
     font-size: 40px;
     line-height: 1.1;
     margin: 0 auto 16px;

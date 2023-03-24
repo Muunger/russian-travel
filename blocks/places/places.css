@@ -17,9 +17,15 @@
   }
 }
 
+@media all and (max-width: 625px) {
+  .places {
+    padding: 64px 16px;
+    row-gap: 50px;
+  }
+}
+
 @media all and (max-width: 425px) {
   .places {
     padding: 64px 0;
-    row-gap: 50px;
   }
 }

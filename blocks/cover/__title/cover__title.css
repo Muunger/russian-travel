@@ -8,6 +8,12 @@
   text-align: center;
 }
 
+@media all and (max-width: 625px) {
+  .cover__title {
+    font-size: 48px;
+  }
+}
+
 @media all and (max-width: 425px) {
   .cover__title {
     margin: 0 auto 16px;
