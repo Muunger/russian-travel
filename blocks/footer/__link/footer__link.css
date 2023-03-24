@@ -5,6 +5,11 @@
   list-style: none;
   text-decoration: none;
   color: #fff;
+  transition: 0.3s linear;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media all and (max-width: 425px) {
