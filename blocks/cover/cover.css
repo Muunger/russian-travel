@@ -1,4 +1,21 @@
 .cover {
   padding: 0 48px 92px;
-  position: relative;
+}
+
+@media all and (max-width: 1024px) {
+  .cover {
+    padding: 0 0 92px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .cover {
+    padding: 0 0 88px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .cover {
+    padding: 0 0 64px;
+  }
 }

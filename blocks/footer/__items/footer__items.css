@@ -5,3 +5,11 @@
   align-items: center;
   gap: 18px;
 }
+
+@media all and (max-width: 425px) {
+  .footer__items {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+}

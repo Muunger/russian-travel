@@ -1,3 +1,29 @@
 .cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 740px;
+  background: url(../../../images/image-bottom.jpg) center;
+  background-size: cover;
   text-decoration: none;
+  color: #fff;
+}
+
+@media all and (max-width: 1024px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .cover__link {
+    min-height: 200px;
+  }
 }

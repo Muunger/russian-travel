@@ -3,3 +3,11 @@
   height: 52px;
   background-image: url(../../../images/logo.svg);
 }
+
+@media all and (max-width: 425px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+    background-size: cover;
+  }
+}

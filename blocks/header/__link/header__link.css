@@ -5,3 +5,10 @@
   line-height: 1.2;
   color: #fff;
 }
+
+@media all and (max-width: 425px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}

@@ -4,3 +4,22 @@
   grid-template-rows: repeat(5, auto);
   row-gap: 80px;
 }
+
+@media all and (max-width: 1024px) {
+  .places {
+    padding: 92px 48px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .places {
+    padding: 88px 24px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .places {
+    padding: 64px 0;
+    row-gap: 50px;
+  }
+}

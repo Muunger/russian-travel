@@ -4,3 +4,10 @@
   font-weight: 400;
   line-height: 1.15;
 }
+
+@media all and (max-width: 425px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 1;
+  }
+}
