@@ -31,4 +31,4 @@
 
 **GitHub**
 
-* [Ссылка на проект в GitHub](https://github.com/Muunger/russian-travel)
+* [Ссылка на проект в GitHub](https://muunger.github.io/russian-travel/)

@@ -2,7 +2,7 @@
   margin: 0;
   font-size: 72px;
   font-weight: 900;
-  line-height: 1.05;
+  line-height: 1.06;
 }
 
 @media all and (max-width: 768px) {
@@ -16,6 +16,6 @@
   .place__title {
     padding: 0 16px;
     font-size: 32px;
-    line-height: 1.1;
+    line-height: 1.09;
   }
 }
